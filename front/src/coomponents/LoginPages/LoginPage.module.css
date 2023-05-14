@@ -1,0 +1,107 @@
+
+.fondo{
+    background-image: url('../../images/fondo.png'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.divFondo{
+    height: 700px;
+    width: 600px;
+    top: 150px;
+    left: 600px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.44);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;  
+}
+
+.imgLogo{
+
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 180px;
+    background-size: cover;
+    background-image: url('../../images/Logo.png');
+}
+
+.forms{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-top: 60px;
+}
+
+.inputs{
+    position: relative;
+    font-family: "DM Serif Display";
+    width: 450px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: white; 
+    margin-left: 60px;   
+}
+
+.labels{
+    color: white;
+    font-family: "DM Serif Display";
+    font-size: 20px;
+    margin-left: 60px;
+}
+
+.boton{
+    font-family: "DM Serif Display";
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: 200px;
+    border-radius: 10px;
+    background-color: #025969;
+    ;
+    box-shadow: 5px 5px 5px black;
+}
+
+.boton:hover{
+    height: 50px;
+    width: 160px;
+    transform: traslateX(-20deg);
+    transition:0.3s;
+}
+
+@media (max-width: 768px) {
+    /* Estilos para pantallas menores o iguales a 768px de ancho */
+    .divFondo {
+      width: 90%;
+      left: 5%;
+    }
+  
+    .imgLogo {
+      width: 150px;
+      height: 150px;
+      margin-top: 20px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .inputs {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .labels {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .boton {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  

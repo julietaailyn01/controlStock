@@ -1,0 +1,106 @@
+.divCard{
+    background: rgba(0, 0, 0, 0.33);
+    /*margin: 3%;
+    width: 350px;
+    height: 300px;
+    padding-bottom: 2%;    
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+    font-family: "DM Serif Display";
+    font-size: 1.5em; */
+    font-family: "DM Serif Display";
+    box-shadow: 5px 5px 5px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    max-width: 300px;
+}
+
+.nav{
+    /* display: flex;
+    background-color: #025969;
+   border-radius: 5px;
+   /* height: 10%; 
+   color: white; */
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   margin-bottom: 10px;
+}
+
+.botonX{
+    /* margin: 1%;
+    background-color: red;
+    color: black;
+    border-radius: 5px;
+    margin-right: 5%; */
+    border-radius: 5px;
+    background-color: #fff;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.botonX:hover {
+    color: red;
+  }
+
+  .nav p {
+    font-size: 1.8rem;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+  }
+
+  
+.imgContainer {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+  
+  .imgContainer img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    margin-bottom: 20px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .divCard {
+      max-width: 400px;
+    }
+  }
+  
+  .description {
+    margin-bottom: 10px;
+  }
+  
+  .price {
+    margin-bottom: 10px;
+  }
+  
+  .stock {
+    margin-bottom: 10px;
+  }
+  
+  .aLink {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #025969;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  

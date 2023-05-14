@@ -1,0 +1,77 @@
+.body{
+    background-color: #F0FBFF;
+    color: black;
+    font-family: "DM Serif Display";
+    height: 100vh;
+}
+
+.header{
+  background-color: #025969;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    padding: 10px;
+    top:-10px ;
+}
+
+.navul{
+  list-style: none;
+    display: flex;
+    padding: 15px;
+    justify-content: end; 
+}
+
+.navulli{
+    margin-left: 1rem;
+}
+
+.logo{
+  width: 50px; /* Establece el ancho de la imagen en 100 píxeles */   
+}
+
+.navullia{
+    color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.navullia:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/*Estilos del formulario*/
+
+.form{
+  display: flex;
+  flex-direction: column;
+  margin: 15rem auto;
+  width: 50%;
+}
+
+.label{
+    font-weight: bold;
+  margin-top: 1rem;
+}
+
+.inputs{
+    border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.button{
+    background-color: #025969;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.button:hover{
+    background-color: #004155;
+}
